@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'home.dart';
-import 'motion.dart';
+import 'package:motion_widget/motion_widget.dart';
 
 class WelcomeScreen extends StatefulWidget {
   @override

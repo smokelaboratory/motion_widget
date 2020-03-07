@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'motion.dart';
+import 'package:motion_widget/motion_widget.dart';
 
 class ShowcaseScreen extends StatefulWidget {
   @override

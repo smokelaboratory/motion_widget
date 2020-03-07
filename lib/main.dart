@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'motion.dart';
+import 'package:motion_widget/motion_widget.dart';
 import 'welcome.dart';
 
 void main() => runApp(MaterialApp(
