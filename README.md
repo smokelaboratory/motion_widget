@@ -18,8 +18,6 @@ A simple, powerful widget to build cool transitions
 
 ## Usage
 
-[Example](https://github.com/smokelaboratory/motion_widget)
-
 To use this plugin :
 
 * Add the dependency
