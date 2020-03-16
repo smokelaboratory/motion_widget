@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:motion_widget_demo/showcase.dart';
-import 'package:motion_widget/motion_widget.dart';
+import 'motion_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     motionExitConfigurations = MotionExitConfigurations(
         displacement: 200,
-        orientation: MotionOrientation.HORIZONTAL_LEFT,
+        orientation: MotionOrientation.LEFT,
         durationMs: 400);
 
     WidgetsBinding.instance.addPostFrameCallback((_) {

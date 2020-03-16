@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:motion_widget/motion_widget.dart';
+import 'motion_widget.dart';
 import 'welcome.dart';
 
 void main() => runApp(MaterialApp(
@@ -50,7 +50,7 @@ class _SplashScreenState extends State<SplashScreen> {
             textAlign: TextAlign.center,
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
           ),
-          orientation: MotionOrientation.HORIZONTAL_RIGHT,
+          orientation: MotionOrientation.RIGHT,
           interval: Interval(0.0, 0.5),
         ),
         SizedBox(
