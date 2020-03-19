@@ -149,7 +149,7 @@ class _MotionState<T extends Flex> extends State<Motion<T>>
 
   @override
   void dispose() {
-    widget.motionController.dispose();
+    widget.motionController?.dispose();
     widget.exitConfigurations?.controller?.dispose();
 
     super.dispose();
